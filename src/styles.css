@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('./assets/destination/background-destination-desktop.jpg');
+    color: white;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+:root {
+    --fuente1: 'Barlow Condensed', sans-serif;
+    --fuente2: 'Bellefair', serif;
+    --grisclaro:#d7d6d6;
+    --grisoscuro: #535863;
+}

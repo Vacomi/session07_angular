@@ -1,0 +1,80 @@
+/* :root {
+    --fuente1: 'Barlow Condensed', sans-serif;
+    --fuente2: 'Bellefair', serif;
+} */
+.titulo {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    font-family: var(--fuente1)
+}
+.num-title {
+    font-weight: 300;
+    font-size: .8em;
+    /* color: gray; */
+    /* color: #484d56; */
+    color: yellow;
+    color: var(--grisoscuro);
+}
+
+/*  */
+.main {
+    /* width: 90%;
+    max-width: 800px;
+    margin: 0 auto; */
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    width: 40%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/*  */
+
+.descripcion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    width: 40%;
+}
+.texto {
+    width: 40%;
+}
+.texto h3 {
+    font-size: 4em;
+    margin: 2rem 0;
+    font-family: var(--fuente2);
+}
+.texto p {
+    color: gray;
+    color: #d7d6d6;
+}
+
+/*  */
+.detalles {
+    display: flex;
+    margin-top: 3rem;
+    border-top: 1px solid gray;
+    padding-top: 1rem;
+}
+.detalles div{
+    width: 50%;
+}
+.detagrande {
+    font-size: 1.3em;
+}
+.detachico {
+    font-size: .6em; 
+}
