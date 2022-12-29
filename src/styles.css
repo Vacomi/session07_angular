@@ -1,49 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-
-/*MENU*/
-#linea{
-    width: 650px;
-    position:relative;
-    top: -10px;
-    height: 1px;
-    background-color: rgb(249, 250, 252);
-    margin-left: 280px;
-}
-
-.menu{
-	list-style: none;
-	padding: -10px;
-	background-color: rgba(90, 90, 90, 0.897);
-	width: 100%;
-	margin-left:  200px;
-    margin-top: -70px;
-}
-
-.menu li a{
-	text-decoration: none;
-	color: rgba(243, 243, 243, 0.986);
-	padding: 45px;
-	display: block;
-  font-size: 17px;
-}
-
-.menu li{
-	display: inline-block;
-	text-align:center;
-}
-
-.menu li a:hover{
-	border-bottom: 5px solid white;
-}
-
-#logo{
-    margin-top:100px;
-    margin-left: 30px;
-}
-
-#colorb{
+body {
     color: white;
+    font-family: sans-serif;
 }
+
+:root {
+    --fuente1: 'Barlow Condensed', sans-serif;
+    --fuente2: 'Bellefair', serif;
+    --grisclaro:#d7d6d6;
+    --grisoscuro: #535863;
+}
+
 
 *{
     margin: 0;
