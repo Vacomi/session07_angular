@@ -2,6 +2,15 @@
     --fuente1: 'Barlow Condensed', sans-serif;
     --fuente2: 'Bellefair', serif;
 } */
+.contenedor2 {
+    background-image: url('./assets/destination/background-destination-desktop.jpg');
+    height: 100vh;
+}
+.contenedorpag2 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .titulo {
     font-size: 2em;
     font-weight: 400;
