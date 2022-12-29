@@ -1,0 +1,85 @@
+
+body {
+    font-family: "Bellefair", sans-serif;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ h3,h4,h5 {
+    font-weight: normal;
+ }
+ 
+
+ h3.heading-3 {
+    font-family: "Bellefair";
+    font-size: 60px;
+ }
+ 
+ h4.heading-4 {
+    font-family: "Bellefair";
+    font-size: 40px;
+ }
+ 
+ h5.heading-5 {
+    font-family: "Barlow Condensed";
+    font-size: 35px;
+    letter-spacing: 4.75px;
+    color: white
+ }
+ 
+ p.body-text {
+    font-family: "Barlow Condensed";
+    font-size: 25px;
+    color: rgb(212, 218, 253);
+    line-height: 30px;
+    letter-spacing: 1px;
+ }
+
+ 
+ main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-grow: 1;
+    min-height: 0;
+ }
+ 
+ main .grid-cell {
+    width: 500px;
+ }
+ 
+body {
+    background-image: url("../../assets/crew/background-crew-desktop.jpg");
+ }
+ 
+ main .grid-cell {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 60%;
+    justify-content: space-between;
+ }
+ 
+ main .grid-cell h5.heading-5 span {
+    color: #979797;
+ }
+ 
+ main .grid-cell div h4.heading-4 {
+    color: #979797;
+ }
+ 
+ main .grid-cell div p.body-text {
+    margin-top: 20px;
+ }
+ 
+ main #crew-img {
+    align-self: flex-end;
+    justify-self: center;
+    width: 650px;
+ }
+ 
