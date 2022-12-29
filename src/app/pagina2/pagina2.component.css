@@ -1,9 +1,7 @@
-/* :root {
-    --fuente1: 'Barlow Condensed', sans-serif;
-    --fuente2: 'Bellefair', serif;
-} */
+
 .contenedor2 {
-    background-image: url('./assets/destination/background-destination-desktop.jpg');
+    /* background-image: url('../assets/destination/background-destination-desktop.jpg'); */
+    background-image: url('../../assets/destination/background-destination-desktop.jpg');
     height: 100vh;
 }
 .contenedorpag2 {
@@ -20,17 +18,13 @@
 .num-title {
     font-weight: 300;
     font-size: .8em;
-    /* color: gray; */
-    /* color: #484d56; */
     color: yellow;
     color: var(--grisoscuro);
 }
 
 /*  */
 .main {
-    /* width: 90%;
-    max-width: 800px;
-    margin: 0 auto; */
+
 
     width: 100%;
     display: flex;

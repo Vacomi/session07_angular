@@ -91,40 +91,39 @@
   @media only screen and (min-width: 1024px) {
     .hero{
         background-image: url("../../assets/home/background-home-desktop.jpg");
-       
+        background-size: cover;
     }
     .hero__container{
-       width: 70%;
-       height: 100%;
-       margin:  0 auto;
-       display: flex;
-       align-items: center;
-       justify-content: space-around;
-       
+        height: 100%;
+        width: 80%;
+        margin:  0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    .hero__container__text{
-        width: 39%;
-        
+    .hero_container_text{
+        width: 40%;
+    }
+    .hero_container_circle{
+        width: 50%;
     }
     .hero_paragraph{
         width: 100%;
         padding: 0;
         text-align: left;
-        font-size: 1rem;
+        font-size: .9rem;
+        text-align: justify;
     }
     .hero__subtitle{
-        font-size: 1.3rem;
+        font-size: .9rem;
         text-align: left;
-        
     }
     .hero__title{
-        font-size: 8rem;
+        font-size: 6rem;
         text-align: left;
     }
     .hero__circle{
-        /* margin-left: 400px; */
-        height: 220px;
-        width: 220px;
-    }     
-    
+        height: 230px;
+        width: 230px;
+    }
   }
