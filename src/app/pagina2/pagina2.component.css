@@ -1,8 +1,8 @@
 
 .contenedor2 {
-    /* background-image: url('../assets/destination/background-destination-desktop.jpg'); */
     background-image: url('../../assets/destination/background-destination-desktop.jpg');
     height: 100vh;
+    padding: 2rem 0;
 }
 .contenedorpag2 {
     width: 90%;
@@ -24,15 +24,60 @@
 
 /*  */
 .main {
-
-
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.image img{
+    width: 100%;
+    animation: rotate 8s infinite linear;
+
+    /* .tuclase planeta{
+        animation: rotate 3s infinite linear;
+    }
+    @keyframes rotate {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+  } */
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+    .image {
+        text-align: center;
+    }
+    .image img {
+        width: 300px;
+    }
+    .titulo {
+        text-align: center;
+    }
+    .contenedor2 {
+        height: auto;
+    }
+}
+.descripcion{
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
 .menu {
-    width: 40%;
-    align-self: flex-end;
     display: flex;
     justify-content: flex-start;
     gap: 2rem;
@@ -42,18 +87,8 @@
     text-decoration: none;
 }
 
-/*  */
-
-.descripcion{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.image {
-    width: 40%;
-}
 .texto {
-    width: 40%;
+    /* width: 40%; */
 }
 .texto h3 {
     font-size: 4em;
@@ -63,6 +98,19 @@
 .texto p {
     color: gray;
     color: #d7d6d6;
+}
+
+@media (max-width: 768px) {
+    .descripcion {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .texto {
+        text-align: center;
+    }
 }
 
 /*  */
