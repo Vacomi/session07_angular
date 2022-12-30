@@ -1,12 +1,5 @@
-/* <style> @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap'); </style> */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap');
-/* Modo Movil */
 
-body{
-    /* font-family: 'Barlow', sans-serif;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-family: 'Bellefair', serif; */
-}
+/* Modo Movil */
 .hero{
     background-image: url("../../assets/technology/background-technology-mobile.jpg");
     background-size: cover;
