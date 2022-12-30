@@ -1,3 +1,6 @@
+/* <style> @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap'); </style> */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap');
+
 /* Modo Movil */
 .hero{
     background-image: url(../../assets/home/background-home-mobile.jpg);
@@ -7,35 +10,38 @@
     height: 100vh;
     color: white;
     padding: .1px ;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .hero__subtitle{
     margin-top: 5rem;
     text-align: center;
-    color: gray;
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(199, 198, 198);
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
 }
 .hero__title{
     text-align: center;
     margin-top: .4rem;
-    font-size: 4.3rem;
+    font-size: 4.9rem;
     font-weight: 100;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 5px;
+    font-family: 'Bellefair', serif; 
+    
 }
-.hero_paragraph{
+.hero__paragraph{
     text-align: center;
-    margin-top: 1.1rem;
-    padding: 10px 20px;
-    color: gray;
-    font-size: 0.9rem;
+    padding: 0 17px;
+    color: rgb(168, 166, 166);
+    font-size: 1rem;
     line-height: 1.7;
+    font-family: 'Barlow', sans-serif;
 }
 .hero__circle{
     margin: 0 auto;
-    margin-top: 1.4rem;
+    margin-top: 1.7rem;
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -45,9 +51,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;   
 }
+.hero__circle:hover{
+    transition: .5s;
+    transform: scale(1.25);
+    box-shadow: 0px 0px 60px rgb(255, 255, 255);
+    
+}
+
+
 /* Modo tablet------------------------------------------------------------------------- */
 @media only screen and (min-width: 768px) {
     
@@ -58,25 +73,23 @@
     .hero__subtitle{
         margin-top: 6rem;
         letter-spacing: 1px;
-        font-size: 10px;
+        font-size: 1.1rem;
     }
     .hero__title{
-        font-size: 5rem;
-        margin-bottom: 16px;
-        
+        font-size: 5.5rem;        
     }
-    .hero_paragraph{
-        width: 56%;
+    .hero__paragraph{
+        width: 59%;
         margin: 0 auto;
         text-align: center;
         
     }
     .hero__circle{
         margin: 0 auto;
-        margin-top: 2rem;
+        margin-top: 1.4rem;
         border-radius: 50%;
-        height: 180px;
-        width: 180px;
+        height: 160px;
+        width: 160px;
         background-color: white;
         color: black;
         text-align: center;
@@ -95,35 +108,40 @@
     }
     .hero__container{
         /* height: 100%; */
-        width: 80%;
+        height: 100%;
+        width: 70%;
         margin:  0 auto;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
-    .hero_container_text{
+    .hero__container__text{
         width: 40%;
-    }
-    .hero_container_circle{
+    }    
+    .hero_container__circle{
         width: 50%;
     }
-    .hero_paragraph{
+    .hero__paragraph{
         width: 100%;
         padding: 0;
         text-align: left;
-        font-size: .9rem;
+        font-size: 1rem;
         text-align: justify;
     }
     .hero__subtitle{
-        font-size: .9rem;
+        font-size: 1.2rem;
         text-align: left;
+        letter-spacing: 3.5px;
     }
     .hero__title{
         font-size: 6rem;
         text-align: left;
     }
     .hero__circle{
-        height: 230px;
-        width: 230px;
+        margin-top: 11rem;
+        height: 210px;
+        width: 210px;
+        
     }
   }
+ 
