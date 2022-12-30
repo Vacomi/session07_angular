@@ -4,13 +4,16 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
+	margin-bottom: 3rem;
+	position: relative;
 }
 
 .rayita {
+	z-index: 1;
 	flex: 1;
 	margin: 0 -50px 0 20px;
 	height: 1px;
-	background-color: white;
+	background-color: gray;
 }
 .menus {
     list-style: none;
