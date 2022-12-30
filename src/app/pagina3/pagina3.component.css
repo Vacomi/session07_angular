@@ -1,4 +1,4 @@
-
+/*----------- MODO DESKTOP ------------- */
 body {
     font-family: "Bellefair", sans-serif;
     height: 100vh;
@@ -7,6 +7,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    background-image: url("../../assets/crew/background-crew-desktop.jpg");
  }
  
  h3,h4,h5 {
@@ -34,7 +35,7 @@ body {
  p.body-text {
     font-family: "Barlow Condensed";
     font-size: 25px;
-    color: rgb(212, 218, 253);
+    color: white;
     line-height: 30px;
     letter-spacing: 1px;
  }
@@ -45,14 +46,6 @@ body {
     grid-template-columns: 1fr 1fr;
     flex-grow: 1;
     min-height: 0;
- }
- 
- main .grid-cell {
-    width: 500px;
- }
- 
-body {
-    background-image: url("../../assets/crew/background-crew-desktop.jpg");
  }
  
  main .grid-cell {
@@ -80,6 +73,193 @@ body {
  main #crew-img {
     align-self: flex-end;
     justify-self: center;
-    width: 650px;
  }
+
  
+@media only screen and (max-width: 1500px) {
+   main .grid-cell {
+      height: 335px;
+   }
+   main .grid-cell h5.heading-5 {
+      font-size: 26px;
+   }
+   main .grid-cell div h3.heading-3 {
+      font-size: 45px;
+   }
+   main .grid-cell div p.body-text {
+      margin-top: 10px;
+   }
+}
+
+@media only screen and (max-width: 1500px) and (max-height: 750px) {
+   main #crew-img {
+      height: 475px;
+   }
+}
+
+@media only screen and (max-width: 1250px) {
+   main .grid-cell {
+      justify-self: flex-end;
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   main .grid-cell {
+      height: 325px;
+      width: 460px;
+   }
+   main .grid-cell h5.heading-5 {
+      font-size: 22px;
+      letter-spacing: 3px;
+   }
+   main .grid-cell div h4.heading-4 {
+      font-size: 26px;
+   }
+   main .grid-cell div h3.heading-3 {
+      font-size: 38px;
+   }
+   main .grid-cell div p.body-text {
+      margin-top: 8px;
+   }
+   main #crew-img {
+      height: 450px;
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+   main .grid-cell {
+      height: 325px;
+      width: 400px;
+   }
+   main .grid-cell h5.heading-5 {
+      font-size: 20px;
+      letter-spacing: 3px;
+   }
+   main .grid-cell div h4.heading-4 {
+      font-size: 24px;
+   }
+   main .grid-cell div h3.heading-3 {
+      font-size: 35px;
+   }
+   main .grid-cell div p.body-text {
+      margin-top: 7px;
+      font-size: 16px;
+      line-height: 25px;
+   }
+   main #crew-img {
+      height: 400px;
+   }
+}
+
+
+/*----------- MODO TABLET ------------- */
+
+
+@media only screen and (max-width: 950px) {
+   body {
+      background-image: url("../../assets/crew/background-crew-tablet.jpg");
+   }
+   main {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+   }
+   main .grid-cell {
+      align-items: center;
+      text-align: center;
+      justify-self: stretch;
+      width: auto;
+      padding-left: 30px;
+   }
+   main .grid-cell h5.heading-5 {
+      font-size: 20px;
+      letter-spacing: 3px;
+   }
+   main .grid-cell div {
+      width: 440px;
+   }
+   main .grid-cell div h3.heading-3 {
+      margin-top: 10px;
+      font-size: 40px;
+   }
+}
+
+@media only screen and (max-width: 675px) {
+   main .grid-cell h5.heading-5 {
+      font-size: 18px;
+   }
+   main .grid-cell div h4.heading-4 {
+      font-size: 22px;
+   }
+   main .grid-cell div h3.heading-3 {
+      font-size: 36px;
+      margin-top: 8px;
+   }
+   main .grid-cell div p.body-text {
+      font-size: 15px;
+   }
+   main #crew-img {
+      height: 360px;
+   }
+}
+
+/*----------- MODO MOBILE ------------- */
+
+@media only screen and (max-width: 625px) {
+   body {
+      background-image: url("../../assets/crew/background-crew-mobile.jpg");
+   }
+
+    main {
+      padding: 0 30px;
+      position:relative;
+   }
+
+   main .grid-cell h5.heading-5 {
+      align-self: flex-start;
+   }
+   main .grid-cell div {
+      margin-top: 30px;
+   }
+}
+
+@media only screen and (max-width: 510px) {
+   main .grid-cell div {
+      width: 100%;
+   }
+   main .grid-cell div h4.heading-4 {
+      font-size: 16px;
+   }
+   main .grid-cell div h3.heading-3 {
+      font-size: 24px;
+   }
+   main #crew-img {
+      height: 300px;
+   }
+}
+
+@media only screen and (max-width: 510px) {
+   main .grid-cell div {
+      width: 100%;
+   }
+   main .grid-cell div h4.heading-4 {
+      font-size: 11px;
+   }
+   main .grid-cell div h3.heading-3 {
+      font-size: 12px;
+   }
+   main #crew-img {
+      height: 300px;
+   }
+   main .grid-cell div p.body-text {
+      position:relative;
+      font-size: 8px;
+      line-height: 15px;
+   }
+}
+@media only screen and (max-width: 318px) {
+   main #crew-img {
+      position: absolute;
+      height: 100px;
+   }
+}
+
