@@ -40,3 +40,39 @@
 #colorb{
     color: white;
 }
+
+@media(max-width:1039px){
+
+	.navegacion{
+		justify-content: flex-start;
+	}
+
+	.menus{
+		display:block;
+	}
+
+	.navegacion .logotipo{
+		margin-left: 1rem;
+	}
+
+	#barra{
+		position:fixed;
+		width: 23%;
+		height: 50vh;
+		background-color: rgba(58, 57, 57, 0.288);
+		top: 10vh;
+		left:0;
+		text-align: left;
+		transition: all .5s;
+		display:flex;
+		flex-direction: column;
+		align-content: stretch;
+	}
+
+	.menus a{
+		padding: 0.5rem 0;
+		display:flex;
+		flex-direction: column;
+		padding-left: 0.1rem;
+	}
+}
