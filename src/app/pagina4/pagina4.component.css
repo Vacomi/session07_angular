@@ -1,0 +1,228 @@
+/* <style> @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap'); </style> */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap');
+/* Modo Movil */
+
+body{
+    /* font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif; */
+}
+.hero{
+    background-image: url("../../assets/technology/background-technology-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: .1px ;
+}
+/* TITULO Y SUBTITULO */
+.hero__subtitle{
+    color: #d3d5df;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 27px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.hero__span{
+    color: #464852;
+    margin-right: 10px;   
+}
+
+/* BOTONES 1 2 Y 3*/
+.hero__concept__buttons{
+   margin: 1.1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.hero__buttons{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8c8c8da6;
+}
+.hero__buttons:hover{
+    transition: .5s;
+    transform: scale(1.25);
+    box-shadow: 0px 0px 40px rgb(255, 255, 255);
+}
+
+.hero__buttons--1{
+    background-color: white;
+    color: black;
+}
+/* CONTENIDO */
+.hero__concept__subtitle{
+    margin: 1.6rem 0 1.2rem 0;
+    text-transform: uppercase;
+    color: #afafaf;
+    font-size: .8rem;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* LAUNCH TITLE */
+
+.hero__concept__title{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:1rem ;
+    font-weight: lighter;
+    color: #ffffff;
+    font-family: 'Bellefair', serif;
+}
+.hero__concept__texts{
+    padding: 0 2rem;
+}
+.hero__concept__paragrahp{
+    text-align: justify;
+    color: #afb1bf;
+    margin-bottom: 2rem;
+    line-height: 2;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* IMAGEN */
+.hero__img{
+    padding: 0 2rem;
+   height: 100%;
+   margin-bottom: 2rem;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+/* Modo tablet------------------------------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+    .hero{
+        background-image: url("../../assets/technology/background-technology-tablet.jpg");
+        height: 100vh;
+        padding: .1px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero__container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero__container__group{
+        display: flex;
+        align-items: center;
+
+    }
+    .hero__concept{
+        width: 60%;
+        display: flex;
+    }
+    .hero__concept__buttons{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+    }
+    .hero__buttons:nth-child(2),.hero__buttons:nth-child(3){
+       margin-top: 15px;
+    }
+    .hero__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero__subtitle{
+        margin-bottom: 50px;
+        font-size: 1rem;
+    }
+    .hero__concept__subtitle, .hero__concept__title,.hero__subtitle{
+        text-align: left;
+    }
+    .hero__concept__subtitle{
+        font-size: .7rem;
+        margin: 0;
+        margin: 9px 0;
+    }
+    .hero__concept__paragrahp{
+        font-size: .7rem;
+    }
+    .hero__img{
+       height: 320px;
+       width: 320px;
+       margin: 0  auto;
+    }
+    
+  }
+  /* DESKTOP */
+  @media only screen and (min-width: 1024px) {
+    .hero{
+        background-image: url("../../assets/technology/background-technology-desktop.jpg");
+        height: 100vh;
+    }
+    .hero__container{
+        width: 70%;
+    }
+
+    .hero__img{
+        height: 310px;
+        width: 310px;
+        margin: 0  auto;
+     }
+     .hero__subtitle{
+        font-size: 1.1rem;
+     }
+     .hero__concept__title{
+        font-size: 2rem;
+     }
+     .hero__concept__paragrahp{
+        text-align: left;
+        font-size: .8rem;
+     }
+     .hero__buttons:nth-child(2),.hero__buttons:nth-child(3){
+        margin-top: 1.4rem;
+     }
+  }
+
+  /* Modo desktop */
+  @media only screen and (min-width: 1306px) {
+    .hero{
+        background-image: url("../../assets/technology/background-technology-desktop.jpg");
+        height: 100vh;
+    }
+    .hero__container{
+        width: 70%;
+    }
+
+    .hero__img{
+        height: 450px;
+        width: 450px;
+        margin: 0  auto;
+     }
+     .hero__subtitle{
+        font-size: 1.4rem;
+     }
+     .hero__concept__title{
+        font-size: 2.7rem;
+     }
+     .hero__concept__paragrahp{
+        text-align: left;
+        font-size: .9rem;
+        padding-right: 87px;
+     }
+     .hero__buttons{
+        width: 60px;
+        height: 60px;
+
+    }
+    .hero__buttons:nth-child(2),.hero__buttons:nth-child(3){
+        margin-top: 1.8rem;
+     }
+  }
