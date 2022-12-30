@@ -1,6 +1,6 @@
 /*----------- MODO DESKTOP ------------- */
-body {
-    font-family: "Bellefair", sans-serif;
+.cuerpo {
+    /* font-family: "Bellefair", sans-serif; */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -23,6 +23,7 @@ body {
  h4.heading-4 {
     font-family: "Bellefair";
     font-size: 40px;
+
  }
  
  h5.heading-5 {
@@ -210,7 +211,7 @@ body {
    }
 
     main {
-      padding: 0 30px;
+      /* padding: 0 30px; */
       position:relative;
    }
 
@@ -222,20 +223,6 @@ body {
    }
 }
 
-@media only screen and (max-width: 510px) {
-   main .grid-cell div {
-      width: 100%;
-   }
-   main .grid-cell div h4.heading-4 {
-      font-size: 16px;
-   }
-   main .grid-cell div h3.heading-3 {
-      font-size: 24px;
-   }
-   main #crew-img {
-      height: 300px;
-   }
-}
 
 @media only screen and (max-width: 510px) {
    main .grid-cell div {
@@ -243,9 +230,11 @@ body {
    }
    main .grid-cell div h4.heading-4 {
       font-size: 11px;
+      font-size: 1em;
    }
    main .grid-cell div h3.heading-3 {
       font-size: 12px;
+      font-size: 1.2em;
    }
    main #crew-img {
       height: 300px;
@@ -253,7 +242,8 @@ body {
    main .grid-cell div p.body-text {
       position:relative;
       font-size: 8px;
-      line-height: 15px;
+      font-size: 1em;
+      /* line-height: 15px; */
    }
 }
 @media only screen and (max-width: 318px) {
